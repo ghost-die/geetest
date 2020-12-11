@@ -1,0 +1,33 @@
+{
+    "name": "ghost/geetest",
+    "description": "Geetest Dcat",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension","Feetest"],
+    "homepage": "https://github.com/ghost/geetest",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ghost",
+            "email": "wangqun1436@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ghost\\Geetest\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Ghost\\Geetest\\GeetestServiceProvider",
+        "laravel": {
+            "providers": [
+                "Ghost\\Geetest\\GeetestServiceProvider"
+            ]
+        }
+    }
+}
