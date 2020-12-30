@@ -4,7 +4,7 @@
 
 
 
-<img src="http://oss.ghost-ai.com/images/Geetest_github" alt="http://oss.ghost-ai.com/images/Geetest_github" style="zoom:50%;" />
+<img src="http://oss.ghost-ai.com/images/Geetest_github" alt="" style="zoom:50%;" />
 
 
 
